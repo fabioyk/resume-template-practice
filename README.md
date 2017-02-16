@@ -12,3 +12,6 @@ Many of the tools and techniques were used for my first time here.
   * Inverted Triangle CSS was used as our CSS architecture and make our CSS scalable.
 * Flexbox
   * Flexbox was used extensively throughout the website, to create the desired layouts and make them easily responsive and mobile ready.
+  
+## Demo
+You can check it up at https://fabioyk.github.io/resume-template-practice/
