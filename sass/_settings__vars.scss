@@ -1,0 +1,70 @@
+/*
+  COLORS
+*/
+
+// Descriptive colors
+$lochmara: rgb(2,140,213);
+$cerulean: rgb(40,196,255);
+$alabaster: rgb(248, 248, 248);
+$gray: rgb(140,140,140);
+
+// Functional colors
+$nav--background: $lochmara;
+$nav--color: $cerulean;
+$nav--selected: white;
+$header--background: $cerulean;
+$header--color: white;
+$sidebar--background: $alabaster;
+$sidebar__title--color: $cerulean;
+$sidebar__text--color: $gray;
+$content--background: white;
+$content--color: $gray;
+$contacts--background: $cerulean;
+$contacts__icon-background--color: $lochmara;
+$contacts--color: white;
+$footer--background: $lochmara;
+$footer--color: white;
+$link--color: white;
+
+/*
+  FONTS
+*/
+
+$base-font-family: Arial, sans-serif;
+$base-font-size: 18px;
+
+/*
+  MEDIA QUERIES 
+*/
+
+$desktop-media: "screen and (min-width: 900px)";
+$tablet-media: "screen and (max-width: 900px)";
+$mobile-media: "screen and (max-width: 500px)";
+
+/*
+  DIMENSIONS
+*/
+
+$page-padding: 10%;
+
+$nav--height: 70px;
+$nav--link-distance: 30px;
+
+$header--height: 300px;
+
+$all-content--padding-top: $page-padding;
+$all-content--flex-side: 1;
+$all-content--flex-main: 3;
+
+$sidebar--padding-right: 70px;
+$sidebar__hr--margin: 25px;
+
+$content--padding-bottom: 2.5*$all-content--padding-top;
+
+$contacts--height: 190px;
+$contact__container--padding-horizontal: 3%;
+$contacts__icon-background--size: 70px;
+$contacts-icon-link--margin: 14px;
+
+$footer--height: $nav--height;
+$footer--padding-vertical: 15px;

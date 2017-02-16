@@ -1,0 +1,20 @@
+.content {
+  padding-top: $all-content--padding-top;
+  padding-right: $page-padding;
+  padding-left: $all-content--padding-top;
+  padding-bottom: $content--padding-bottom;
+  
+  flex: $all-content--flex-main;
+  
+  p:first-child {
+    margin-top: 0;
+  }
+  
+  img {
+    padding-top: 40px;
+  }
+  
+  .content__my-name {
+    font-weight: bold;
+  }
+}

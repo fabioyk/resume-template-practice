@@ -1,0 +1,51 @@
+.sidebar {
+  padding-top: $all-content--padding-top; 
+  padding-bottom: $all-content--padding-top;
+  padding-left: $page-padding;
+  padding-right: $sidebar--padding-right;
+  
+  background-color: $sidebar--background;
+  
+  flex: $all-content--flex-side;
+  
+  display: flex;
+  flex-direction: column;
+  
+  p:first-child {
+    margin-top: 0;
+  }
+  
+  .sidebar__title {
+    color: $sidebar--title--color;
+  }
+  
+  .sidebar__text {
+    color: $sidebar--text--color;
+  }
+  
+  .sidebar__hr {
+    border: 0;
+    border-top: 2px solid rgba(0,0,0,0.1);
+  }
+  
+  @media #{$desktop-media} {
+    @include box-shadow--inset-left($width: 7px);
+  }
+  
+  @media #{$tablet-media} {
+    @include box-shadow--inset-bottom($height: 7px);
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;      
+    
+    .sidebar__block {
+      flex-shrink: 0;
+      flex-basis: 250px;
+    }
+    
+    .sidebar__hr {
+      border-top: 0;
+    }
+  }
+}

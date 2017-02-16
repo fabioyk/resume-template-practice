@@ -1,0 +1,19 @@
+@import 'settings__vars';
+
+@import 'tools__mixin';
+
+@import 'generic__normalize';
+@import 'generic__setup';
+
+@import 'elements__general';
+
+@import 'components__wrapper';
+@import 'components__nav';
+@import 'components__header';
+@import 'components__main-content';
+@import 'components__sidebar';
+@import 'components__content';
+@import 'components__contacts';
+@import 'components__footer';
+
+@import 'style';

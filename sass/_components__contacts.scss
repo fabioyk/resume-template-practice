@@ -1,0 +1,40 @@
+.contacts {
+  background-color: $contacts--background;
+  color: $contacts--color;
+  height: $contacts--height;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 $contact__container--padding-horizontal;
+  }  
+  
+  .contact__icon-background {
+    background-color: $contacts__icon-background--color;    
+    border-radius: 50%;
+    width: $contacts__icon-background--size;
+    height: $contacts__icon-background--size;
+    margin-bottom: $contacts-icon-link--margin;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media #{$tablet-media} {
+    padding: $contacts__icon-background--size/2 0;
+    height: 100%;
+    
+    flex-direction: column;
+    
+    .contact__container {
+      padding: $contact__container--padding-horizontal 0;
+    }
+  }
+}

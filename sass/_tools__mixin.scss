@@ -1,0 +1,19 @@
+@mixin box-shadow--bottom($height, $color: rgba(158,158,158,0.5), $blur: 13px) {
+  -webkit-box-shadow: 0px $height $blur 0px $color;
+  -moz-box-shadow: 0px $height $blur 0px $color;
+  box-shadow: 0px $height $blur 0px $color;
+}
+
+@mixin box-shadow--inset-left($width,  $color: rgba(158,158,158,0.5), $blur: 13px) {
+  $width: $width * -1;
+  -webkit-box-shadow: inset $width 0px $blur 0px $color;
+  -moz-box-shadow: inset $width 0px $blur 0px $color;
+  box-shadow: inset $width 0px $blur 0px $color;
+}
+
+@mixin box-shadow--inset-bottom($height,  $color: rgba(158,158,158,0.5), $blur: 13px) {
+  $height: $height * -1;
+  -webkit-box-shadow: inset 0px $height $blur 0px $color;
+  -moz-box-shadow: inset 0px $height $blur 0px $color;
+  box-shadow: inset 0px $height $blur 0px $color;
+}

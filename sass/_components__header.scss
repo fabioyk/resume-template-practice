@@ -1,0 +1,51 @@
+.header {
+  padding: 0 $page-padding;
+  padding-top: $nav--height;
+  background-color: $header--background;  
+ 
+  color: $header--color;
+  
+  @include box-shadow--bottom($height: 14px);
+  
+  position: relative;
+  z-index: 2;
+  
+  display: flex;
+  height: $header--height;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  //flex-wrap: wrap;
+  
+  h1, h2 {
+    margin: 0;
+    padding-top: 40px;
+  }
+  
+  h1 {
+    font-size: 70px;
+  }
+  .header--text {
+    flex-shrink: 0;
+  }
+  .header--image {
+    margin-left: $page-padding*-2;    
+    position:absolute;
+    overflow: hidden;
+    background-image: url("/assets/person.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    
+    background-size: auto 100%;
+    //background-origin: content-box;
+    filter: grayscale(100%) contrast(150%) opacity(0.3); 
+    width: 100vw;
+    height: 75%;
+  }
+  
+  @media #{$tablet-media} {
+    h1 {
+      font-size: 50px;
+    }
+  }
+}
