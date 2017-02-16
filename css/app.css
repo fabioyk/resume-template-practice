@@ -509,7 +509,7 @@ h1, h3 {
     margin-left: -20%;
     position: absolute;
     overflow: hidden;
-    background-image: url("assets/person.png");
+    background-image: url("../assets/person.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: auto 100%;
